@@ -1,0 +1,45 @@
+.mdl-grid{
+margin-top: -12%;
+}
+
+.mdl-layout__header {
+    background-color: white;
+    height: 100px;
+    border-bottom: 1px solid rgba(0,0,0,.12);
+    margin-bottom: 12%;
+}
+
+#img_nav_short{
+  width: 150%;
+  margin-top: -10%;
+  margin-left: -25%;
+}
+
+#img_nav_large{
+  width: 30%;
+  height: 0%;
+  margin-top: 6%;
+  margin-left: -20%;
+}
+
+label.mdl-switch{
+  display: inline;
+  margin-left: 10%;
+}
+
+#form-servicio{
+  display: none;
+}
+
+.image-upload > input {
+  visibility:hidden;
+  width:0;
+  height:0
+}
+
+#blahR{
+  width: 70%;
+  height: 201px;
+  margin-top: 28%;
+  margin-left: 15%;
+}

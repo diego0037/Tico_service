@@ -1,0 +1,36 @@
+body{
+	background: black;
+}
+.Barra-wrapper {
+	width: 300px;
+	margin: 30px auto 0;
+}
+
+.html5-progress-bar progress {
+	background-color: #f3f3f3;
+	border: 0;
+	width: 80%;
+	height: 18px;
+	border-radius: 9px;
+	margin-left: 10%;
+}
+.html5-progress-bar progress::-webkit-progress-bar {
+	background-color: #f3f3f3;
+	border-radius: 9px;
+}
+.html5-progress-bar progress::-webkit-progress-value {
+	background: #cdeb8e;
+	background: -moz-linear-gradient(top,  #76D7C4 0%, #76D7C4 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#76D7C4), color-stop(100%,#a5c956));
+	background: -webkit-linear-gradient(top,  #76D7C4 0%,#76D7C4 100%);
+	background: -o-linear-gradient(top,  #76D7C4 0%#76D7C4 100%);
+	background: -ms-linear-gradient(top,  #76D7C4 0%,#a5c956 100%);
+	background: linear-gradient(to bottom,  #76D7C4 0%,#76D7C4 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#76D7C4', endColorstr='#a5c956',GradientType=0 );
+	border-radius: 9px;
+}
+#moverImagen{
+	width: 100%;
+  margin: auto;
+	/*border: 1px solid red;*/
+}

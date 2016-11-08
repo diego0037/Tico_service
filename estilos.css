@@ -1,0 +1,63 @@
+.header-top {
+  margin-top: 50px;
+}
+
+ #link-header {
+  font-size: 20px;
+  color: rgb(6,163,146);
+}
+
+h1 {
+  color: rgb(6,163,146);
+}
+
+ #h2-enunciado {
+   font-size: 2em;
+   color: rgb(6,163,146);
+}
+
+
+ th.mdl-data-table__cell--non-numeric, th {
+  background-color: rgb(6,163,146);
+  color: white;
+  text-transform: uppercase;
+}
+
+.page-content {
+  width: 1000px;
+    margin: auto;
+  }
+
+.mdl-layout__header {
+    background-color: white;
+    height: 100px;
+    border-bottom: 1px solid rgba(0,0,0,.12);
+}
+
+.mdl-layout-title{
+  font-size: 2em;
+}
+
+#img_nav_large{
+  width: 30%;
+  height: 0%;
+  margin-top: 6%;
+  margin-left: -20%;
+}
+
+#img_nav_short{
+  width: 150%;
+  margin-top: -10%;
+  margin-left: -25%;
+}
+
+#mover_busqueda{
+  margin-left: 10%;
+}
+
+#user_regis{
+  width: 38px;
+}
+.mdl-layout__header-row .mdl-navigation__link {
+  color: rgba(79,221,245,1);
+}
