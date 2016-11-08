@@ -39,14 +39,14 @@
           <div class="mdl-cell mdl-cell--4-col"></div>
           <div class="mdl-cell mdl-cell--4-col">
 
-          <form class="" action="perfil.html" method="post">
+          <form class="" action="php/verificar_usuario.php" method="post">
             <div class="mdl-textfield mdl-js-textfield">
-              <input class="mdl-textfield__input" type="email" id="correo" required>
+              <input class="mdl-textfield__input" type="email" name="correo" required>
               <label class="mdl-textfield__label" for="correo">Correo Electronico</label>
             </div><br>
 
             <div class="mdl-textfield mdl-js-textfield">
-              <input class="mdl-textfield__input" type="password" id="Contrasena" required>
+              <input class="mdl-textfield__input" type="password" name="contrasena" required>
               <label class="mdl-textfield__label" for="Contrasena">Dijite su Contraseña</label>
             </div><br>
             <input class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored"
