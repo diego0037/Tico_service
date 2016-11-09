@@ -13,17 +13,6 @@ $message .= 'Whole query: ' . $datos;
 die($message);
 }
 
-// while ($r=mysql_fetch_array($datos)) {
-//   if ($row['correo'] == $correo && $row['contrasena'] == $contrasena ) {
-//
-//   }else {
-//     $message = 'No estas resgistrado o verifica tus datos ';
-//     die($message);
-//   }
-// }
-
-
-
 if($row = mysql_fetch_array($datos)){
 if($row['contrasena'] == $contrasena){
 session_start();
@@ -38,23 +27,4 @@ header('Location: ../perfil.php');
   die($message);
 }
 
-
-
-
-
-
-
-// while ($row=mysql_fetch_object($datos)) {
-//
-//   if ($row['correo'] == $correo && $row['contrasena'] == $contrasena ) {
-//    header('Location: ../perfil.php');
-//   $message = 'registrado ';
-//   die($message);
-//   } else {
-//     $message = 'No estas resgistrado o verifica tus datos ';
-//     die($message);
-//   }
-//
-// }
-// mysql_free_result($datos);
  ?>

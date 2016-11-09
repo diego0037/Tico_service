@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="css/contacto.css">
     <link rel="stylesheet" href="css/nameUser.css">
-    
+
 
     <title>Contacto</title>
   </head>
@@ -21,7 +21,7 @@
               <div class="mdl-layout-spacer mdl-layout--large-screen-only"></div>
               <!-- Navigation -->
                 <nav class="mdl-navigation">
-                  <a class="mdl-navigation__link" href="Principal.html">
+                  <a class="mdl-navigation__link" href="Principal.php">
                                 <img src="images/back-icon.png" alt="home" /></a>
                 </nav>
             </div>
@@ -33,14 +33,14 @@
               <button class="dropbtn">Usuario<img src="images/profile-icon.png"
                 alt="Usuario" id="user_regis" /></button>
               <div class="dropdown-content">
-                <a href="Perfil.html">Editar Cuenta</a>
-                <a href="login.html">Cerrar Cuenta</a>
+                <a href="Perfil.php">Editar Cuenta</a>
+                <a href="login.php">Cerrar Cuenta</a>
               </div>
             </div>
             <figure><img id="img_nav_short" src="images/logo.png" alt="" /></figure>
             <nav class="mdl-navigation">
-              <a class="mdl-navigation__link" href="Principal.html">Principal</a>
-              <a class="mdl-navigation__link" href="Login.html">Login</a>
+              <a class="mdl-navigation__link" href="Principal.php">Principal</a>
+              <a class="mdl-navigation__link" href="Login.php">Login</a>
               <!-- <a class="mdl-navigation__link" href="">Cerrar Sesión</a> -->
             </nav>
           </div>

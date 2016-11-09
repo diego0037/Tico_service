@@ -124,22 +124,7 @@
     <label class="mdl-textfield__label" for="Disp">Disponibilidad...</label>
   </div><br>
 
-
-
-
-
 </form>
-<?php
-// if($_POST)
-//  {
-//     echo "Datos Guardados";
-//    include("guardar_usuario");
-//    echo "Datos Guardados";
-//  }
-//  echo "error";
-  ?>
-
-
       </div>
 
       </div>
