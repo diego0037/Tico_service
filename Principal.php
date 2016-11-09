@@ -27,7 +27,7 @@
         <nav class="mdl-navigation">
           <a class="mdl-navigation__link" href="Principal.html">Cerrar Sesion<img src="images/profile-icon.png"
             alt="Usuario" id="user_regis" /></a>
-          <a class="mdl-navigation__link" href="login.html">
+          <a class="mdl-navigation__link" href="login.php">
                         <img src="images/icono_login.png" alt="login" /></a>
 
         </nav>
@@ -39,16 +39,16 @@
         <button class="dropbtn">Usuario<img src="images/profile-icon.png"
           alt="Usuario" id="user_regis" /></button>
         <div class="dropdown-content">
-          <a href="Perfil.html">Editar Cuenta</a>
-          <a href="login.html">Cerrar Cuenta</a>
+          <a href="Perfil.php">Editar Cuenta</a>
+          <a href="login.php">Cerrar Cuenta</a>
         </div>
       </div>
       <figure><img id="img_nav_short" src="images/logo.png" alt="" /></figure>
 
 
       <nav class="mdl-navigation">
-        <a class="mdl-navigation__link" href="Login.html">Login</a>
-        <a class="mdl-navigation__link" href="Principal.html">Pagina Principal</a>
+        <a class="mdl-navigation__link" href="Login.php">Login</a>
+        <a class="mdl-navigation__link" href="Principal.php">Pagina Principal</a>
         <a class="mdl-navigation__link" href=""></a>
         <a class="mdl-navigation__link" href=""></a>
       </nav>

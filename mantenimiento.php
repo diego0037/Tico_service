@@ -22,7 +22,7 @@
           <div class="mdl-layout-spacer mdl-layout--large-screen-only"></div>
           <!-- Navigation -->
           <nav class="mdl-navigation">
-            <a class="mdl-navigation__link" href="login.html">
+            <a class="mdl-navigation__link" href="login.php">
                           <img src="images/back-icon.png" alt="home" /></a>
           </nav>
           </div>
@@ -30,8 +30,8 @@
           <div class="mdl-layout__drawer mdl-layout--small-screen-only">
             <figure><img id="img_nav_short" src="images/logo.png" alt="" /></figure>
             <nav class="mdl-navigation">
-              <a class="mdl-navigation__link" href="Principal.html">Pagina Principal</a>
-              <a class="mdl-navigation__link" href="Login.html">Login</a>
+              <a class="mdl-navigation__link" href="Principal.php">Pagina Principal</a>
+              <a class="mdl-navigation__link" href="Login.php">Login</a>
               <a class="mdl-navigation__link" href=""></a>
               <a class="mdl-navigation__link" href=""></a>
             </nav>

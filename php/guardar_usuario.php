@@ -9,7 +9,11 @@ $telefono = $_POST['telefono'];
 $correo = $_POST['correo'];
 $contrasena = $_POST['contrasena'];
 
-
+if (filter_var($correo, FILTER_VALIDATE_EMAIL)) {
+  
+}else {
+  die('Verifique su correo');
+}
 
 $sql = "INSERT INTO usuarios(`nombre`, `apellidos`, `telefono`, `correo`, `contrasena`)
         VALUES(\"$nombre\", \"$apellidos\", \"$telefono\", \"$correo\", \"$contrasena\");";
@@ -20,3 +24,4 @@ if ($result) {
 }else {
   header('Location: ../mantenimiento.php');
 }
+?>

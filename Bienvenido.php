@@ -4,7 +4,7 @@
 	<title>Bienvenido a Tico-Service</title>
 	<meta name = "viewport" content = "user-scalable=no, width=device-width">
 	<!-- <meta name=viewport content="width=device-width, initial-scale=1"> -->
-<META HTTP-EQUIV="REFRESH" CONTENT="5;URL=Principal.html">
+<META HTTP-EQUIV="REFRESH" CONTENT="5;URL=Principal.php">
 	<link rel="stylesheet" href="css/style.css">
 	<script src="js/jquery.js" type="text/javascript"></script>
 	<script src="js/modernizr.js" type="text/javascript"></script>
