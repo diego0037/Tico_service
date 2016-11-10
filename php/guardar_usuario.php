@@ -17,7 +17,7 @@ if(mysql_num_rows($datos)>0){
   die('correo existente');
 }
 if ($contrasena!=$verificar_contra) {
-  die('contraseñas no considen');
+  die('contraseñas no coinciden');
 }
 
 

@@ -145,9 +145,8 @@
 
 
 
-<script src="js/contacto.js">
-
-</script>
 <script src="./material.min.js"></script>
+<script src="js/contacto.js"></script>
+
 </body>
 </html>
