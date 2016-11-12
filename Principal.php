@@ -25,9 +25,9 @@
         <div class="mdl-layout-spacer mdl-layout--large-screen-only"></div>
         <!-- Navigation -->
         <nav class="mdl-navigation">
-          <a class="mdl-navigation__link" href="Principal.html">Cerrar Sesion<img src="images/profile-icon.png"
+          <a class="mdl-navigation__link" href="Principal.php">Cerrar Sesión<img src="images/profile-icon.png"
             alt="Usuario" id="user_regis" /></a>
-          <a class="mdl-navigation__link" href="login.php">
+          <a class="mdl-navigation__link" href="Login.php">
                         <img src="images/icono_login.png" alt="login" /></a>
 
         </nav>
@@ -40,7 +40,7 @@
           alt="Usuario" id="user_regis" /></button>
         <div class="dropdown-content">
           <a href="Perfil.php">Editar Cuenta</a>
-          <a href="login.php">Cerrar Cuenta</a>
+          <a href="Login.php">Cerrar Cuenta</a>
         </div>
       </div>
       <figure><img id="img_nav_short" src="images/logo.png" alt="" /></figure>
@@ -48,7 +48,7 @@
 
       <nav class="mdl-navigation">
         <a class="mdl-navigation__link" href="Login.php">Login</a>
-        <a class="mdl-navigation__link" href="Principal.php">Pagina Principal</a>
+        <a class="mdl-navigation__link" href="Principal.php">Página Principal</a>
         <a class="mdl-navigation__link" href=""></a>
         <a class="mdl-navigation__link" href=""></a>
       </nav>
@@ -80,13 +80,13 @@
                  Animador/a,Arquitecto/a,Botanico/a,Biologo/a,
                  Bibliotecario/a,Cantante,Contador/a,Cocinero/a,
                  Dentista,Ingeniero del Software">
-                 <label class="mdl-textfield__label" for="sample1">Profesion
+                 <label class="mdl-textfield__label" for="sample1">Profesión
                    a buscar...</label>
                </div>
              </form>
             </div>
             <div class="mdl-cell mdl-cell--4-col">
-              <a class="mdl-navigation__link" href="contacto.html">
+              <a class="mdl-navigation__link" href="contacto.php">
                             <img src="images/Search-icon.png"
                             alt="Buscar" /></a>
             </div>
@@ -98,7 +98,7 @@
              <p>Arquitecto(Carlos Ramirez)</p></li>
              <li><img src="images/Doctora.png" />
              <p>Doctora(Fernanda Chavez)</p></li>
-             <li><a href="contacto.html"><img src="images/Ingeniero.jpeg" />
+             <li><a href="contacto.php"><img src="images/Ingeniero.jpeg" />
              <p>Ingeniero del Software(Eduardo Villegas)</p></a></li>
              <li><img src="images/mecanico.jpg" />
              <p>Mecanico(Luis Rojas)</p></li>

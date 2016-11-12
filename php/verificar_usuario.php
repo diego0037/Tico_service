@@ -17,7 +17,7 @@ if($row = mysql_fetch_array($datos)){
 if($row['contrasena'] == $contrasena){
 session_start();
 $_SESSION['correo'] = $correo;
-header('Location: ../perfil.php');
+header('Location: ../Principal.php');
 }else{
   $message = 'No estas resgistrado o verifica tus datos ';
   die($message);

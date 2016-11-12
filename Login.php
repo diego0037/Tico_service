@@ -42,18 +42,20 @@
           <form class="" action="php/verificar_usuario.php" method="post">
             <div class="mdl-textfield mdl-js-textfield">
               <input class="mdl-textfield__input" type="email" name="correo" required>
-              <label class="mdl-textfield__label" for="correo">Correo Electronico</label>
+              <label class="mdl-textfield__label" for="correo" id="correo">Correo Electrónico</label>
             </div><br>
 
             <div class="mdl-textfield mdl-js-textfield">
               <input class="mdl-textfield__input" type="password" name="contrasena" required>
-              <label class="mdl-textfield__label" for="Contrasena">Dijite su Contraseña</label>
+              <label class="mdl-textfield__label" for="Contrasena" id="contrasena">Digite su Contraseña</label>
             </div><br>
+            <label id="mensaje_error"></label>
             <input class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored"
-                                        type="submit" name="submit" value="Entrar">
+                                        type="submit" name="submit" value="Entrar"
+                                        id="login">
               <br>
               <div id="link">
-                <span>Registarse </span><a href="Registro.php">Aquí</a>
+                <span>Registrarse</span><a href="Registro.php">Aquí</a>
               </div>
             </form>
           </div>
@@ -64,5 +66,8 @@
 
     </div>
   <script src="./material.min.js"></script>
+  <script src="js/general.js"></script>
+
+  </script>
   </body>
 </html>
