@@ -1,3 +1,12 @@
+<?php
+
+session_start();
+if (isset($_SESSION["correo"])) {
+  // header("location: Principal.php");
+}
+
+?>
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -7,6 +16,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link href="css/styleC.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="css/principal.css">
     <link rel="stylesheet" href="css/nameUser.css">
     <link rel="stylesheet" href="css/autocomplete.css" />
 
@@ -18,19 +28,22 @@
     <!-- menu desplegable -->
       <div class="mdl-layout mdl-js-layout">
         <header class="mdl-layout__header mdl-layout__header--scroll">
-      <div class="mdl-layout__header-row">
-        <!-- Title -->
-        <figure><img id="img_nav_large" src="images/logo.png" alt="" /></figure>
-        <!-- Add spacer, to align navigation to the right -->
-        <div class="mdl-layout-spacer mdl-layout--large-screen-only"></div>
-        <!-- Navigation -->
-        <nav class="mdl-navigation">
-          <a class="mdl-navigation__link" href="Principal.php">Cerrar Sesión<img src="images/profile-icon.png"
-            alt="Usuario" id="user_regis" /></a>
-          <a class="mdl-navigation__link" href="Login.php">
-                        <img src="images/icono_login.png" alt="login" /></a>
+          <div class="mdl-layout__header-row">
+          <!-- Title -->
+            <figure><img id="img_nav_large" src="images/logo.png" alt="" /></figure>
+          <!-- Add spacer, to align navigation to the right -->
+            <div class="mdl-layout-spacer mdl-layout--large-screen-only"></div>
+          <!-- Navigation -->
+            <nav class="mdl-navigation">
+              <div id="usuario_div">
+                <a href="perfil.php" id="usuario_a"><?php echo $_SESSION['correo'] ?>
+                          <img id="usuario_img" src="images/profile-icon.png"/></a>
+              </div>
 
-        </nav>
+              <a id="login_img" class="mdl-navigation__link" href="Login.php">
+                            <img src="images/icono_login.png" alt="login" /></a>
+              <a id="cerrar_sesion_a" class="mdl-navigation__link" href="logout.php">Cerrar Sesión</a>
+            </nav>
       </div>
     </header>
     <div class="mdl-layout__drawer mdl-layout--small-screen-only">
@@ -109,10 +122,13 @@
       </main>
     </div>
 
+    <script src="js/jquery.js" charset="utf-8"></script>
     <script src="js/autocomplete.js"></script>
     <script src="./material.min.js"></script>
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <!-- <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script> -->
     <script type="text/javascript" src="js/jquery.flexisel.js"></script>
     <script type="text/javascript" src="js/moverCarousel.js"></script>
+    <script src="js/principal.js"></script>
+
   </body>
 </html>
