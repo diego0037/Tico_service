@@ -1,10 +1,6 @@
 $(document).ready(function(){
-  debugger;
-  var cant_chars = $('#usuario_a').text().length;
-  if (cant_chars>=30) {
-    debugger;
-    //presenta a de usuario
-    //presenta cerrar sesion
+  var chars = $('#usuario_a').html();
+  if (chars.includes('@')) {
     $('#login_img').css('display', 'none');
     $('#usuario_div').css('display', 'block');
     $('#usuario_img').css('display', 'inline-block');

@@ -12,6 +12,7 @@ $(document).ready(function() {
           $('#submit').val("Conectando...");
         },
         success:function(data) {
+          debugger;
           $('#submit').val("ENTRAR");
 
           if (data=="1") {

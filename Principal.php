@@ -1,8 +1,8 @@
 <?php
 
 session_start();
-if (isset($_SESSION["correo"])) {
-  // header("location: Principal.php");
+if (isset($_SESSION["correo"]) && isset($_SESSION['id'])) {
+  // header("location: https://www.youtube.com");
 }
 
 ?>
@@ -38,6 +38,7 @@ if (isset($_SESSION["correo"])) {
               <div id="usuario_div">
                 <a href="perfil.php" id="usuario_a"><?php echo $_SESSION['correo'] ?>
                           <img id="usuario_img" src="images/profile-icon.png"/></a>
+                <a id="usuario_id"><?php echo $_SESSION['id'] ?>          
               </div>
 
               <a id="login_img" class="mdl-navigation__link" href="Login.php">

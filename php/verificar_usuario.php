@@ -12,7 +12,8 @@ if($row = mysql_fetch_array($datos)){
 if($row['contrasena'] == $contrasena){
 session_start();
 $_SESSION['correo'] = $row['correo'];
-echo "1";
+$_SESSION['id'] = $row['id'];
+  echo "1";
 }else{
   echo "0";
   }

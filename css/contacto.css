@@ -1,5 +1,5 @@
 .mdl-grid{
-margin-top: -12%;
+  margin-top: -12%;
 }
 
 .mdl-layout__header {
@@ -56,6 +56,50 @@ margin-top: -12%;
   display: none;
 }
 
-#user_regis{
+#usuario_img{
   width: 38px;
+  display: none;
+}
+
+#usuario_div{
+  display: none;
+}
+
+#cerrar_sesion_a{
+  display: none;
+  color: black;
+}
+
+#login_img{
+  display: none;
+}
+
+#show-dialog{
+  display: none;
+}
+
+/*#form_dialog{
+  margin-bottom: 25%;
+  margin-right: 20%;
+}*/
+
+.mdl-dialog__actions>*:first-child {
+    margin-right: 20%;
+    height: 100%;
+}
+
+.mdl-layout__content{
+  margin-bottom: -10%;
+}
+
+#botones_dialog{
+  display: none;
+}
+
+#form_dialog{
+  display: none;
+}
+
+#cerrar_dialog{
+  float: right;
 }
