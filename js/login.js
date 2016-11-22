@@ -15,7 +15,7 @@ $(document).ready(function() {
           debugger;
           $('#submit').val("ENTRAR");
 
-          if (data=="1") {
+          if (data>0) {
             $(location).attr('href','Principal.php');
           } else {
             $("#resultado").html("<strong>¡Error!</strong> las credenciales son incorrectas");

@@ -30,7 +30,7 @@ if (isset($_SESSION["correo"]) && isset($_SESSION['id'])) {
                 <div id="usuario_div">
                   <a href="perfil.php" id="usuario_a"><?php echo $_SESSION['correo'] ?>
                             <img id="usuario_img" src="images/profile-icon.png"/></a>
-                  <label id="usuario_id"><?php echo $_SESSION['id'] ?></label>          
+                  <label id="usuario_id"><?php echo $_SESSION['id'] ?></label>
                 </div>
 
                 <a id="login_img" class="mdl-navigation__link" href="Login.php">
@@ -174,7 +174,7 @@ if (isset($_SESSION["correo"]) && isset($_SESSION['id'])) {
                         <span>Registrarse </span><a href="Registro.php">Aquí</a>
                     </form>
                   <div id="botones_dialog">
-                    <button type="button" class="mdl-button agree">De acuerdo</button>
+                    <button id="acuerdo_btn" type="button" class="mdl-button agree">De acuerdo</button>
                     <button type="button" class="mdl-button close">Cancelar</button>
                   </div>
                 </div>

@@ -13,7 +13,7 @@ if($row['contrasena'] == $contrasena){
 session_start();
 $_SESSION['correo'] = $row['correo'];
 $_SESSION['id'] = $row['id'];
-  echo "1";
+  echo $row['id'];
 }else{
   echo "0";
   }
