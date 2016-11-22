@@ -42,7 +42,7 @@
           <form class="" action="php/verificar_usuario.php" method="post">
             <div class="mdl-textfield mdl-js-textfield">
               <input class="mdl-textfield__input" type="email" name="correo" required>
-              <label class="mdl-textfield__label" for="correo">Correo Electronico</label>
+              <label class="mdl-textfield__label" for="correo">Correo Electrónico</label>
             </div><br>
 
             <div class="mdl-textfield mdl-js-textfield">
@@ -53,7 +53,7 @@
                                         type="submit" name="submit" value="Entrar">
               <br>
               <div id="link">
-                <span>Registarse </span><a href="Registro.php">Aquí</a>
+                <span>Registrarse </span><a href="Registro.php">Aquí</a>
               </div>
             </form>
           </div>

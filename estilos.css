@@ -61,3 +61,9 @@ h1 {
 .mdl-layout__header-row .mdl-navigation__link {
   color: rgba(79,221,245,1);
 }
+/*provando*/
+#imagenes_carousel{
+  display: block;
+  width: 88%;
+  height: 271px;
+}

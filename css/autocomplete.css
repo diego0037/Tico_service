@@ -1,4 +1,4 @@
-.awesomplete .visually-hidden {
+/*.awesomplete .visually-hidden {
     position: absolute;
     clip: rect(0, 0, 0, 0);
 }
@@ -60,4 +60,4 @@
 	.awesomplete > ul > li[aria-selected="true"] {
 		background: hsl(205, 40%, 40%);
 		color: white;
-	}
+	}*/

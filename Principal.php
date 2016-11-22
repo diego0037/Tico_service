@@ -8,7 +8,10 @@
     <link href="css/styleC.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="estilos.css">
     <link rel="stylesheet" href="css/nameUser.css">
-    <link rel="stylesheet" href="css/autocomplete.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- <link rel="stylesheet" href="css/autocomplete.css" /> -->
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="autocomplete/auto-complete.js"></script>
 
 
     <title>Tico-Service</title>
@@ -72,8 +75,15 @@
          <div class="mdl-grid">
            <div class="mdl-cell mdl-cell--4-col graybox"></div>
            <div class="mdl-cell mdl-cell--4-col">
-             <form action="#">
+             <!-- <form action="#"> -->
                <div class="mdl-textfield mdl-js-textfield" id="mover_busqueda">
+                 <input id="keyword" class="awesomplete mdl-textfield__input"  list="datalist">
+                 <label class="mdl-textfield__label" for="sample1">Profesion
+                   a buscar...</label>
+                   <div id="results">
+                   </div>
+                 </div>
+               <!-- <div class="mdl-textfield mdl-js-textfield" id="mover_busqueda">
                  <input autofocus class="awesomplete mdl-textfield__input "
                  data-list="Abogado/a,Actriz,Administrador/a,
                  Agente de seguros,Agente de viajes,Agronomo,Analista de mercados,
@@ -82,8 +92,8 @@
                  Dentista,Ingeniero del Software">
                  <label class="mdl-textfield__label" for="sample1">Profesion
                    a buscar...</label>
-               </div>
-             </form>
+               </div> -->
+             <!-- </form> -->
             </div>
             <div class="mdl-cell mdl-cell--4-col">
               <a class="mdl-navigation__link" href="contacto.html">
@@ -94,22 +104,23 @@
        <!-- carousel -->
        <div class="carousel">
          <ul id="flexiselDemo3">
-             <li><img src="images/arquitecto.jpg" />
+             <li><img src="images/arquitecto.jpg" id="imagenes_carousel" />
              <p>Arquitecto(Carlos Ramirez)</p></li>
-             <li><img src="images/Doctora.png" />
+             <li><img src="images/Doctora.png" id="imagenes_carousel"/>
              <p>Doctora(Fernanda Chavez)</p></li>
-             <li><a href="contacto.html"><img src="images/Ingeniero.jpeg" />
+             <li><a href="contacto.html"><img src="images/Ingeniero.jpeg" id="imagenes_carousel"/>
              <p>Ingeniero del Software(Eduardo Villegas)</p></a></li>
-             <li><img src="images/mecanico.jpg" />
+             <li><img src="images/mecanico.jpg" id="imagenes_carousel"/>
              <p>Mecanico(Luis Rojas)</p></li>
-             <li><img src="images/panadera.jpg" />
+             <li><img src="images/panadera.jpg" id="imagenes_carousel"/>
              <p>Panadera(Maria Acosta)</p></li>
          </ul>
        </div>
       </main>
     </div>
 
-    <script src="js/autocomplete.js"></script>
+    <!-- <script src="js/auto-complete.js"></script> -->
+    <!-- <script src="js/autocomplete.js"></script> -->
     <script src="./material.min.js"></script>
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
     <script type="text/javascript" src="js/jquery.flexisel.js"></script>
