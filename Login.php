@@ -1,12 +1,3 @@
-<?php
-
-// session_start();
-// if (isset($_SESSION["correo"])) {
-//   header("location: Principal.php");
-// }
-
-?>
-
 <!DOCTYPE html>
 <html>
   <head>
@@ -46,9 +37,8 @@
 
         <div class="mdl-grid">
           <div class="mdl-cell mdl-cell--4-col"></div>
-            <div class="mdl-cell mdl-cell--4-col">
+          <div class="mdl-cell mdl-cell--4-col">
 
-<<<<<<< HEAD
           <form class="" action="php/verificar_usuario.php" method="post">
             <div class="mdl-textfield mdl-js-textfield">
               <input class="mdl-textfield__input" type="email" name="correo" required>
@@ -61,39 +51,18 @@
             </div><br>
             <input class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored"
                                         type="submit" name="submit" value="Entrar">
-=======
-              <form>
-                <div class="mdl-textfield mdl-js-textfield">
-                <label for="correo">Email</label>
-                <input class="mdl-textfield__input" type="email" id="correo"
-                                      placeholder="example@example.com" required>
-              </div>
-              <div class="mdl-textfield mdl-js-textfield">
-                <label for="contrasena">Contraseña</label>
-                <input class="mdl-textfield__input" type="password"
-                                  id="contrasena" placeholder="********" required>
-              </div><br>
-              <span id="resultado"></span>
-              <br>
-              <div>
-                <input class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored"
-                              type="button" name="submit" id="submit" value="ENTRAR">
-              </div>
->>>>>>> a60a4fb35dc5713793a26bef6bc639a98349613e
               <br>
               <div id="link">
                 <span>Registrarse </span><a href="Registro.php">Aquí</a>
               </div>
-              </form>
-            </div>
+            </form>
+          </div>
           <div class="mdl-cell mdl-cell--4-col"></div>
       </div>
+
       </main>
 
     </div>
-
-    <script src="./material.min.js"></script>
-    <script src="js/jquery.js" charset="utf-8"></script>
-    <script src="js/login.js"></script>
+  <script src="./material.min.js"></script>
   </body>
 </html>

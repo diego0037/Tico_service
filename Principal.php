@@ -1,12 +1,3 @@
-<?php
-
-session_start();
-if (isset($_SESSION["correo"]) && isset($_SESSION['id'])) {
-  // header("location: https://www.youtube.com");
-}
-
-?>
-
 <!DOCTYPE html>
 <html>
   <head>
@@ -16,7 +7,6 @@ if (isset($_SESSION["correo"]) && isset($_SESSION['id'])) {
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link href="css/styleC.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="estilos.css">
-    <link rel="stylesheet" href="css/principal.css">
     <link rel="stylesheet" href="css/nameUser.css">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <!-- <link rel="stylesheet" href="css/autocomplete.css" /> -->
@@ -31,22 +21,19 @@ if (isset($_SESSION["correo"]) && isset($_SESSION['id'])) {
     <!-- menu desplegable -->
       <div class="mdl-layout mdl-js-layout">
         <header class="mdl-layout__header mdl-layout__header--scroll">
-          <div class="mdl-layout__header-row">
-          <!-- Title -->
-            <figure><img id="img_nav_large" src="images/logo.png" alt="" /></figure>
-          <!-- Add spacer, to align navigation to the right -->
-            <div class="mdl-layout-spacer mdl-layout--large-screen-only"></div>
-          <!-- Navigation -->
-            <nav class="mdl-navigation">
-              <div id="usuario_div">
-                <a href="perfil.php" id="usuario_a"><?php echo $_SESSION['correo'] ?>
-                          <img id="usuario_img" src="images/profile-icon.png"/></a>
-              </div>
+      <div class="mdl-layout__header-row">
+        <!-- Title -->
+        <figure><img id="img_nav_large" src="images/logo.png" alt="" /></figure>
+        <!-- Add spacer, to align navigation to the right -->
+        <div class="mdl-layout-spacer mdl-layout--large-screen-only"></div>
+        <!-- Navigation -->
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="Principal.html">Cerrar Sesion<img src="images/profile-icon.png"
+            alt="Usuario" id="user_regis" /></a>
+          <a class="mdl-navigation__link" href="login.php">
+                        <img src="images/icono_login.png" alt="login" /></a>
 
-              <a id="login_img" class="mdl-navigation__link" href="Login.php">
-                            <img src="images/icono_login.png" alt="login" /></a>
-              <a id="cerrar_sesion_a" class="mdl-navigation__link" href="logout.php">Cerrar Sesión</a>
-            </nav>
+        </nav>
       </div>
     </header>
     <div class="mdl-layout__drawer mdl-layout--small-screen-only">
@@ -56,7 +43,7 @@ if (isset($_SESSION["correo"]) && isset($_SESSION['id'])) {
           alt="Usuario" id="user_regis" /></button>
         <div class="dropdown-content">
           <a href="Perfil.php">Editar Cuenta</a>
-          <a href="Login.php">Cerrar Cuenta</a>
+          <a href="login.php">Cerrar Cuenta</a>
         </div>
       </div>
       <figure><img id="img_nav_short" src="images/logo.png" alt="" /></figure>
@@ -64,7 +51,7 @@ if (isset($_SESSION["correo"]) && isset($_SESSION['id'])) {
 
       <nav class="mdl-navigation">
         <a class="mdl-navigation__link" href="Login.php">Login</a>
-        <a class="mdl-navigation__link" href="Principal.php">Página Principal</a>
+        <a class="mdl-navigation__link" href="Principal.php">Pagina Principal</a>
         <a class="mdl-navigation__link" href=""></a>
         <a class="mdl-navigation__link" href=""></a>
       </nav>
@@ -103,13 +90,13 @@ if (isset($_SESSION["correo"]) && isset($_SESSION['id'])) {
                  Animador/a,Arquitecto/a,Botanico/a,Biologo/a,
                  Bibliotecario/a,Cantante,Contador/a,Cocinero/a,
                  Dentista,Ingeniero del Software">
-                 <label class="mdl-textfield__label" for="sample1">Profesión
+                 <label class="mdl-textfield__label" for="sample1">Profesion
                    a buscar...</label>
                </div> -->
              <!-- </form> -->
             </div>
             <div class="mdl-cell mdl-cell--4-col">
-              <a class="mdl-navigation__link" href="contacto.php">
+              <a class="mdl-navigation__link" href="contacto.html">
                             <img src="images/Search-icon.png"
                             alt="Buscar" /></a>
             </div>
@@ -121,11 +108,7 @@ if (isset($_SESSION["correo"]) && isset($_SESSION['id'])) {
              <p>Arquitecto(Carlos Ramirez)</p></li>
              <li><img src="images/Doctora.png" id="imagenes_carousel"/>
              <p>Doctora(Fernanda Chavez)</p></li>
-<<<<<<< HEAD
              <li><a href="contacto.html"><img src="images/Ingeniero.jpeg" id="imagenes_carousel"/>
-=======
-             <li><a href="contacto.php"><img src="images/Ingeniero.jpeg" />
->>>>>>> a60a4fb35dc5713793a26bef6bc639a98349613e
              <p>Ingeniero del Software(Eduardo Villegas)</p></a></li>
              <li><img src="images/mecanico.jpg" id="imagenes_carousel"/>
              <p>Mecanico(Luis Rojas)</p></li>
@@ -136,18 +119,12 @@ if (isset($_SESSION["correo"]) && isset($_SESSION['id'])) {
       </main>
     </div>
 
-<<<<<<< HEAD
     <!-- <script src="js/auto-complete.js"></script> -->
     <!-- <script src="js/autocomplete.js"></script> -->
-=======
-    <script src="js/jquery.js" charset="utf-8"></script>
-    <script src="js/autocomplete.js"></script>
->>>>>>> a60a4fb35dc5713793a26bef6bc639a98349613e
+    <script type="text/javascript" src="jquery.js"></script>
     <script src="./material.min.js"></script>
     <!-- <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script> -->
     <script type="text/javascript" src="js/jquery.flexisel.js"></script>
     <script type="text/javascript" src="js/moverCarousel.js"></script>
-    <script src="js/principal.js"></script>
-
   </body>
 </html>
