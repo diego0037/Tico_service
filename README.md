@@ -1,1 +1,0 @@
-# Tico_service
